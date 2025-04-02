@@ -5,13 +5,13 @@ gasolina = 5.80
 etanol = 4.90
 
 
-if tipoCombustivel == "G":
+if tipoCombustivel == "G" or tipoCombustivel == "g":
 
     valorGasolina = numLitros * gasolina
     print(f"Você abasteceu {numLitros} litros de Gasolina voce pagou R${valorGasolina}. ")
 
 else:
-    if tipoCombustivel == "E":
+    if tipoCombustivel == "E" or tipoCombustivel == 'e':
             valorEtanol = numLitros * etanol
 
             print(f"Você abasteceu {numLitros} litros de Etanol voce pagou R${valorEtanol}. ")
