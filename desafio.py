@@ -13,6 +13,9 @@ if somaMinutos >= 60:
 if somaHoras > 12:
     somaHoras -= 12
 
+if somaHoras > 24:
+    somaHoras -=24
+
 print(f"O Horario é {somaHoras}:{somaMinutos:02d}")
 
 
